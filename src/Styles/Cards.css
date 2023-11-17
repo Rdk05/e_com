@@ -1,0 +1,15 @@
+.container-center{
+    align-self: center;
+    align-items: center;
+}
+.card{
+    display: inline-block;
+    width: 500px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}

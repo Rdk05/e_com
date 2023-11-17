@@ -1,8 +1,7 @@
 import {Routes , Route} from "react-router-dom";
 import Login from "../Screens/Login";
 import Register from "../Screens/Register";
-
-
+import Navbar from "../Layout/Navbar";
 
 function AuthRoutes(){
 
