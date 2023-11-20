@@ -6,6 +6,7 @@ import ViewMore from "../Screens/ViewMore";
 import MemoDemo from "../Screens/useMemo.Demo";
 import CallbackDemo from "../Screens/UseCallbackDemo";
 import A from '../Screens/ContextDemo';
+import UseRefDemo from "../Screens/UseRefDemo";
 
 
 function AllRoutes(){
@@ -21,6 +22,7 @@ function AllRoutes(){
             <Route path="/memo-demo" element={<MemoDemo/>}/>
             <Route path="/callback-demo" element={<CallbackDemo/>} />
             <Route path="/context-demo" element={<A/>}/>
+            <Route path="/useRef-demo" element={<UseRefDemo/>} />
             <Route path="/about" element={<About />} />
             <Route path="/viewmore/:id" element={<ViewMore/>}/>
         </Routes>
